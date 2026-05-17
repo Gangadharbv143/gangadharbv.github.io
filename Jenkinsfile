@@ -7,6 +7,16 @@ pipeline {
                 echo 'Portfolio Project Connected Successfully!'
             }
         }
+    }
+}pipeline {
+    agent any
+
+    stages {
+        stage('Clone Check') {
+            steps {
+                echo 'Portfolio Project Connected Successfully!'
+            }
+        }
 
         stage('Build') {
             steps {
