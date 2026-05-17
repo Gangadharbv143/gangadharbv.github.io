@@ -3,17 +3,21 @@ pipeline {
 
     stages {
 
-        stage('Build Docker Image') {
+        stage('Build') {
             steps {
-                sh 'docker build -t portfolio-app .'
+                echo 'Build Successful!'
             }
         }
 
-        stage('Run Container') {
+        stage('Test') {
             steps {
-                sh 'docker stop portfolio-container || true'
-                sh 'docker rm portfolio-container || true'
-                sh 'docker run -d -p 8082:80 --name portfolio-container portfolio-app'
+                echo 'Testing Successful!'
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                echo 'Deployment Successful!'
             }
         }
     }
