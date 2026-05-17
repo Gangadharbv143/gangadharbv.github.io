@@ -2,9 +2,18 @@ pipeline {
     agent any
 
     stages {
-        stage('Test') {
+
+        stage('Build Docker Image') {
             steps {
-                echo 'Jenkins Pipeline Working!'
+                sh 'docker build -t portfolio-app .'
+            }
+        }
+
+        stage('Run Container') {
+            steps {
+                sh 'docker stop portfolio-container || true'
+                sh 'docker rm portfolio-container || true'
+                sh 'docker run -d -p 8082:80 --name portfolio-container portfolio-app'
             }
         }
     }
