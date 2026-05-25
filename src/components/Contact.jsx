@@ -1,33 +1,21 @@
-<p>
-  📧 Email:
-  <a
-    href="mailto:gangadhargangadharbv@gmail.com"
-    className="text-cyan-400 ml-2 hover:underline"
-  >
-    gangadhargangadharbv@gmail.com
-  </a>
-</p>
+function Contact() {
+  return (
+    <section id="contact">
+      <h2>Contact</h2>
 
-<p>
-  💻 GitHub:
-  <a
-    href="https://github.com/Gangadharbv143"
-    target="_blank"
-    rel="noreferrer"
-    className="text-cyan-400 ml-2 hover:underline"
-  >
-    github.com/Gangadharbv143
-  </a>
-</p>
+      <p>
+        <span>💻 GitHub: </span>
 
-<p>
-  🔗 LinkedIn:
-  <a
-    href="https://www.linkedin.com/in/gangadharbv"
-    target="_blank"
-    rel="noreferrer"
-    className="text-cyan-400 ml-2 hover:underline"
-  >
-    linkedin.com/in/gangadharbv
-  </a>
-</p>
+        <a
+          href="https://github.com/Gangadharbv143"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Gangadharbv143
+        </a>
+      </p>
+    </section>
+  );
+}
+
+export default Contact;
