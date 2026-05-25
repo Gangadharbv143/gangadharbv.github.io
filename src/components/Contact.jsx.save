@@ -3,16 +3,14 @@ function Contact() {
     <section id="contact">
       <h2>Contact</h2>
 
-      <p>
-        <span>📧 Email: </span>
-
-        <a href="mailto:gangadhargangadharbv@gmail.com">
-          gangadhargangadharbv@gmail.com
-        </a>
-      </p>
-
-      <p>
-        <span>💻 GitHub: </span>
+      <a
+  href="mailto:gangadhargangadharbv@gmail.com"
+  style={{ color: "#00e5ff" }}
+>
+  gangadhargangadharbv@gmail.com
+</a>
+    tz
+    <span>💻 GitHub: </span>
 
         <a
           href="https://github.com/Gangadharbv143"
