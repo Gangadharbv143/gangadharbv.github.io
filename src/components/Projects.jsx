@@ -105,8 +105,6 @@ Projects </h2>
 
   </div>
 </section>
-```
-
 );
 }
 
