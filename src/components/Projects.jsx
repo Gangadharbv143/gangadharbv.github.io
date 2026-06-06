@@ -1,4 +1,14 @@
-function Projects() {
+cd ~/portfolio
+
+npm run build
+
+git add .
+
+git commit -m "Update portfolio projects"
+
+git push origin main
+
+npm run deplofunction Projects() {
   return (
     <section className="py-20 bg-gray-950 text-white text-center">
       <h2 className="text-4xl font-bold text-cyan-400 mb-10">
