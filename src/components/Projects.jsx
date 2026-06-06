@@ -1,112 +1,133 @@
 function Projects() {
-return ( <section className="py-20 bg-gray-950 text-white text-center"> <h2 className="text-4xl font-bold text-cyan-400 mb-10">
-Projects </h2>
+  return (
+    <section className="py-20 bg-gray-950 text-white text-center">
+      <h2 className="text-4xl font-bold text-cyan-400 mb-10">
+        Projects
+      </h2>
 
-```
-  <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto px-6">
+      <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto px-6">
 
-    <div className="bg-gray-900 p-6 rounded-xl shadow-lg">
-      <h3 className="text-2xl font-semibold mb-3">
-        DevOps Portfolio Website
-      </h3>
+        <div className="bg-gray-900 p-6 rounded-xl shadow-lg">
+          <h3 className="text-2xl font-semibold mb-3">
+            DevOps Portfolio Website
+          </h3>
 
-      <p className="mb-4">
-        Personal portfolio website built using React, Vite and Tailwind CSS.
-      </p>
+          <p className="mb-4">
+            Personal portfolio website built using React, Vite and Tailwind CSS.
+          </p>
 
-      <a
-        href="https://github.com/Gangadharbv143/portfolio"
-        target="_blank"
-        rel="noreferrer"
-        className="text-cyan-400"
-      >
-        View Project
-      </a>
-    </div>
+          <a
+            href="https://github.com/Gangadharbv143/portfolio"
+            target="_blank"
+            rel="noreferrer"
+            className="text-cyan-400"
+          >
+            View Project
+          </a>
+        </div>
 
-    <div className="bg-gray-900 p-6 rounded-xl shadow-lg">
-      <h3 className="text-2xl font-semibold mb-3">
-        DevOps Practice Repository
-      </h3>
+        <div className="bg-gray-900 p-6 rounded-xl shadow-lg">
+          <h3 className="text-2xl font-semibold mb-3">
+            DevOps Practice Repository
+          </h3>
 
-      <p className="mb-4">
-        Linux, Docker, Jenkins, Kubernetes and shell scripting practice files.
-      </p>
+          <p className="mb-4">
+            Linux, Docker, Jenkins, Kubernetes and shell scripting practice files.
+          </p>
 
-      <a
-        href="https://github.com/Gangadharbv143/devops-practice"
-        target="_blank"
-        rel="noreferrer"
-        className="text-cyan-400"
-      >
-        View Repository
-      </a>
-    </div>
+          <a
+            href="https://github.com/Gangadharbv143/devops-practice"
+            target="_blank"
+            rel="noreferrer"
+            className="text-cyan-400"
+          >
+            View Repository
+          </a>
+        </div>
 
-    <div className="bg-gray-900 p-6 rounded-xl shadow-lg">
-      <h3 className="text-2xl font-semibold mb-3">
-        Kubernetes Flask Deployment Project
-      </h3>
+        <div className="bg-gray-900 p-6 rounded-xl shadow-lg">
+          <h3 className="text-2xl font-semibold mb-3">
+            Kubernetes Flask Deployment Project
+          </h3>
 
-      <p className="mb-4">
-        Deployed a containerized Flask application on Kubernetes using Minikube.
-        Created Deployments, Services and scaled pods for high availability.
-      </p>
+          <p className="mb-4">
+            Deployed a containerized Flask application on Kubernetes using Minikube.
+            Created Deployments, Services and scaled pods for high availability.
+          </p>
 
-      <a
-        href="https://github.com/Gangadharbv143/kubernetes-flask-project"
-        target="_blank"
-        rel="noreferrer"
-        className="text-cyan-400"
-      >
-        View Project
-      </a>
-    </div>
+          <a
+            href="https://github.com/Gangadharbv143/kubernetes-flask-project"
+            target="_blank"
+            rel="noreferrer"
+            className="text-cyan-400"
+          >
+            View Project
+          </a>
+        </div>
 
-    <div className="bg-gray-900 p-6 rounded-xl shadow-lg">
-      <h3 className="text-2xl font-semibold mb-3">
-        Jenkins CI/CD Pipeline Project
-      </h3>
+        <div className="bg-gray-900 p-6 rounded-xl shadow-lg">
+          <h3 className="text-2xl font-semibold mb-3">
+            Jenkins CI/CD Pipeline Project
+          </h3>
 
-      <p className="mb-4">
-        Built an automated CI/CD pipeline using Jenkins, GitHub and Docker.
-        Automated code integration, image builds and deployment workflows.
-      </p>
+          <p className="mb-4">
+            Built an automated CI/CD pipeline using Jenkins, GitHub and Docker.
+            Automated code integration, image builds and deployment workflows.
+          </p>
 
-      <a
-        href="https://github.com/Gangadharbv143/docker-jenkins-ci-cd-project"
-        target="_blank"
-        rel="noreferrer"
-        className="text-cyan-400"
-      >
-        View Project
-      </a>
-    </div>
+          <a
+            href="https://github.com/Gangadharbv143/docker-jenkins-ci-cd-project"
+            target="_blank"
+            rel="noreferrer"
+            className="text-cyan-400"
+          >
+            View Project
+          </a>
+        </div>
 
-    <div className="bg-gray-900 p-6 rounded-xl shadow-lg">
-      <h3 className="text-2xl font-semibold mb-3">
-        Prometheus & Grafana Monitoring Project
-      </h3>
+        <div className="bg-gray-900 p-6 rounded-xl shadow-lg">
+          <h3 className="text-2xl font-semibold mb-3">
+            CI/CD Kubernetes Deployment Project
+          </h3>
 
-      <p className="mb-4">
-        Built a monitoring stack using Prometheus and Grafana. Configured metrics collection,
-        monitoring dashboards and infrastructure observability.
-      </p>
+          <p className="mb-4">
+            Built a CI/CD workflow using GitHub, Jenkins, Docker, Docker Hub and Kubernetes.
+            Containerized a Flask application, pushed images to Docker Hub and deployed the application on Kubernetes.
+          </p>
 
-      <a
-        href="https://github.com/Gangadharbv143/monitoring-project"
-        target="_blank"
-        rel="noreferrer"
-        className="text-cyan-400"
-      >
-        View Project
-      </a>
-    </div>
+          <a
+            href="https://github.com/Gangadharbv143/cicd-k8s-project"
+            target="_blank"
+            rel="noreferrer"
+            className="text-cyan-400"
+          >
+            View Project
+          </a>
+        </div>
 
-  </div>
-</section>
-);
+        <div className="bg-gray-900 p-6 rounded-xl shadow-lg">
+          <h3 className="text-2xl font-semibold mb-3">
+            Prometheus & Grafana Monitoring Project
+          </h3>
+
+          <p className="mb-4">
+            Built a monitoring stack using Prometheus and Grafana. Configured metrics collection,
+            monitoring dashboards and infrastructure observability.
+          </p>
+
+          <a
+            href="https://github.com/Gangadharbv143/monitoring-project"
+            target="_blank"
+            rel="noreferrer"
+            className="text-cyan-400"
+          >
+            View Project
+          </a>
+        </div>
+
+      </div>
+    </section>
+  );
 }
 
 export default Projects;
-
