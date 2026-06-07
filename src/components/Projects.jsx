@@ -127,16 +127,17 @@ function Projects() {
 
         <div className="bg-gray-900 p-6 rounded-xl shadow-lg">
           <h3 className="text-2xl font-semibold mb-3">
-            Kubernetes Namespaces Project
+            Advanced Kubernetes Projects
           </h3>
 
           <p className="mb-4">
-            Demonstrated Kubernetes namespace isolation by deploying separate Nginx applications
-            in development and production environments with independent scaling.
+            Implemented advanced Kubernetes concepts including Namespaces, ConfigMaps, Secrets,
+            StatefulSets, ArgoCD GitOps, Horizontal Pod Autoscaling (HPA), RBAC,
+            Network Policies, Jobs, CronJobs and DaemonSets using Minikube.
           </p>
 
           <a
-            href="https://github.com/Gangadharbv143/kubernetes-namespaces-project"
+            href="https://github.com/Gangadharbv143"
             target="_blank"
             rel="noreferrer"
             className="text-cyan-400"
