@@ -2,8 +2,15 @@ function Contact() {
   return (
     <div className="text-center text-white mt-16 mb-10">
       <h2 className="text-4xl font-bold text-cyan-400 mb-6">
-        Contact
+        Get In Touch
       </h2>
+
+      <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
+        I'm actively seeking opportunities as a <strong>DevOps Engineer</strong>,
+        <strong> Cloud Engineer</strong>, or
+        <strong> Linux System Administrator</strong>. Feel free to contact me
+        for job opportunities, collaborations, or professional networking.
+      </p>
 
       <div className="space-y-4 text-xl">
         <p>
@@ -14,6 +21,20 @@ function Contact() {
           >
             gangadhargangadharbv@gmail.com
           </a>
+        </p>
+
+        <p>
+          📞 Phone:
+          <span className="text-cyan-300 ml-2">
+            +91 XXXXXXXXXX
+          </span>
+        </p>
+
+        <p>
+          📍 Location:
+          <span className="text-cyan-300 ml-2">
+            Karnataka, India
+          </span>
         </p>
 
         <p>
