@@ -10,17 +10,55 @@ function Navbar() {
           Gangadhar<span className="text-white">BV</span>
         </h1>
 
-        {/* Nav Links */}
+        {/* Navigation Links */}
         <div className="hidden md:flex space-x-8 text-white text-lg">
-          <a href="#home" className="hover:text-cyan-400 transition">Home</a>
-          <a href="#about" className="hover:text-cyan-400 transition">About</a>
-          <a href="#skills" className="hover:text-cyan-400 transition">Skills</a>
-          <a href="#projects" className="hover:text-cyan-400 transition">Projects</a>
-          <a href="#contact" className="hover:text-cyan-400 transition">Contact</a>
+
+          <a
+            href="#home"
+            className="hover:text-cyan-400 transition duration-300"
+          >
+            Home
+          </a>
+
+          <a
+            href="#about"
+            className="hover:text-cyan-400 transition duration-300"
+          >
+            About
+          </a>
+
+          <a
+            href="#skills"
+            className="hover:text-cyan-400 transition duration-300"
+          >
+            Skills
+          </a>
+
+          <a
+            href="#projects"
+            className="hover:text-cyan-400 transition duration-300"
+          >
+            Projects
+          </a>
+
+          <a
+            href="#certificates"
+            className="hover:text-cyan-400 transition duration-300"
+          >
+            Certificates
+          </a>
+
+          <a
+            href="#contact"
+            className="hover:text-cyan-400 transition duration-300"
+          >
+            Contact
+          </a>
+
         </div>
 
-        {/* Mobile Button (optional simple) */}
-        <div className="md:hidden text-white text-2xl">
+        {/* Mobile Menu Icon */}
+        <div className="md:hidden text-white text-2xl cursor-pointer">
           ☰
         </div>
 
