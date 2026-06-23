@@ -44,7 +44,7 @@ function Contact() {
             </h3>
 
             <p className="text-gray-300">
-              +91 YOUR_PHONE_NUMBER
+              +91 6366261682
             </p>
           </div>
 
