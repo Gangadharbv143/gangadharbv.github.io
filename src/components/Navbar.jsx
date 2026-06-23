@@ -10,54 +10,46 @@ function Navbar() {
           Gangadhar<span className="text-white">BV</span>
         </h1>
 
-        {/* Navigation Links */}
-        <div className="hidden md:flex space-x-8 text-white text-lg">
+        {/* Navigation */}
+        <div className="hidden md:flex items-center space-x-8 text-white text-lg">
 
-          <a
-            href="#home"
-            className="hover:text-cyan-400 transition duration-300"
-          >
+          <a href="#home" className="hover:text-cyan-400 transition">
             Home
           </a>
 
-          <a
-            href="#about"
-            className="hover:text-cyan-400 transition duration-300"
-          >
+          <a href="#about" className="hover:text-cyan-400 transition">
             About
           </a>
 
-          <a
-            href="#skills"
-            className="hover:text-cyan-400 transition duration-300"
-          >
+          <a href="#skills" className="hover:text-cyan-400 transition">
             Skills
           </a>
 
-          <a
-            href="#projects"
-            className="hover:text-cyan-400 transition duration-300"
-          >
+          <a href="#projects" className="hover:text-cyan-400 transition">
             Projects
           </a>
 
-          <a
-            href="#certificates"
-            className="hover:text-cyan-400 transition duration-300"
-          >
+          <a href="#certificates" className="hover:text-cyan-400 transition">
             Certificates
           </a>
 
-          <a
-            href="#contact"
-            className="hover:text-cyan-400 transition duration-300"
-          >
+          <a href="#contact" className="hover:text-cyan-400 transition">
             Contact
+          </a>
+
+          {/* Live Portfolio */}
+          <a
+            href="https://gangadharbv-github-io-9wnq.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-cyan-500 text-black px-4 py-2 rounded-lg font-semibold hover:bg-cyan-400 transition"
+          >
+            Live Portfolio
           </a>
 
         </div>
 
-        {/* Mobile Menu Icon */}
+        {/* Mobile Menu */}
         <div className="md:hidden text-white text-2xl cursor-pointer">
           ☰
         </div>
