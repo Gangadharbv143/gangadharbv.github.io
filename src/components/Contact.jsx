@@ -2,77 +2,88 @@ import React from "react";
 
 function Contact() {
   return (
-    <div id="contact" className="text-center text-white mt-20 mb-10 px-6">
-      
-      <h2 className="text-4xl font-bold text-cyan-400 mb-6">
-        Get In Touch
-      </h2>
+    <section
+      id="contact"
+      className="bg-black text-white py-20 px-6"
+    >
+      <div className="max-w-5xl mx-auto text-center">
 
-      <p className="text-lg text-gray-300 mb-10 max-w-2xl mx-auto">
-        I'm actively seeking opportunities as a{" "}
-        <strong>DevOps Engineer</strong>,{" "}
-        <strong>Cloud Engineer</strong>, or{" "}
-        <strong>Linux System Administrator</strong>. Feel free to contact me
-        for job opportunities, collaborations, or professional networking.
-      </p>
+        <h2 className="text-5xl font-bold text-cyan-400 mb-6">
+          Get In Touch
+        </h2>
 
-      <div className="space-y-5 text-lg">
-
-        {/* Email */}
-        <p>
-          📧 Email:
-          <a
-            href="mailto:gangadhargangadharbv@gmail.com"
-            className="text-cyan-300 hover:text-cyan-400 ml-2"
-          >
-            gangadhargangadharbv@gmail.com
-          </a>
+        <p className="text-lg text-gray-300 mb-12 max-w-3xl mx-auto leading-8">
+          I'm actively seeking opportunities as a{" "}
+          <strong>DevOps Engineer</strong>,{" "}
+          <strong>Cloud Engineer</strong>, or{" "}
+          <strong>Linux System Administrator</strong>.
+          Feel free to contact me regarding job opportunities,
+          collaborations, or professional networking.
         </p>
 
-        {/* Phone */}
-        <p>
-          📞 Phone:
-          <span className="text-cyan-300 ml-2">
-            +91 XXXXXXXXXX
-          </span>
-        </p>
+        <div className="grid md:grid-cols-2 gap-6">
 
-        {/* Location */}
-        <p>
-          📍 Location:
-          <span className="text-cyan-300 ml-2">
-            Karnataka, India
-          </span>
-        </p>
+          {/* Email */}
+          <div className="bg-gray-900 border border-cyan-500 rounded-xl p-6 hover:shadow-lg hover:shadow-cyan-500/30 transition">
+            <h3 className="text-xl font-bold text-cyan-400 mb-3">
+              📧 Email
+            </h3>
 
-        {/* GitHub */}
-        <p>
-          💻 GitHub:
-          <a
-            href="https://github.com/Gangadharbv143"
-            target="_blank"
-            rel="noreferrer"
-            className="text-cyan-300 hover:text-cyan-400 ml-2"
-          >
-            github.com/Gangadharbv143
-          </a>
-        </p>
+            <a
+              href="mailto:gangadhargangadharbv@gmail.com"
+              className="text-gray-300 hover:text-cyan-400 break-all"
+            >
+              gangadhargangadharbv@gmail.com
+            </a>
+          </div>
 
-        {/* LinkedIn */}
-        <p>
-          🔗 LinkedIn:
-          <a
-            href="https://linkedin.com/in/gangadharbv"
-            target="_blank"
-            rel="noreferrer"
-            className="text-cyan-300 hover:text-cyan-400 ml-2"
-          >
-            linkedin.com/in/gangadharbv
-          </a>
-        </p>
+          {/* Phone */}
+          <div className="bg-gray-900 border border-cyan-500 rounded-xl p-6 hover:shadow-lg hover:shadow-cyan-500/30 transition">
+            <h3 className="text-xl font-bold text-cyan-400 mb-3">
+              📞 Phone
+            </h3>
+
+            <p className="text-gray-300">
+              +91 YOUR_PHONE_NUMBER
+            </p>
+          </div>
+
+          {/* GitHub */}
+          <div className="bg-gray-900 border border-cyan-500 rounded-xl p-6 hover:shadow-lg hover:shadow-cyan-500/30 transition">
+            <h3 className="text-xl font-bold text-cyan-400 mb-3">
+              💻 GitHub
+            </h3>
+
+            <a
+              href="https://github.com/Gangadharbv143"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-cyan-400 break-all"
+            >
+              github.com/Gangadharbv143
+            </a>
+          </div>
+
+          {/* LinkedIn */}
+          <div className="bg-gray-900 border border-cyan-500 rounded-xl p-6 hover:shadow-lg hover:shadow-cyan-500/30 transition">
+            <h3 className="text-xl font-bold text-cyan-400 mb-3">
+              🔗 LinkedIn
+            </h3>
+
+            <a
+              href="https://linkedin.com/in/gangadharbv"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-cyan-400 break-all"
+            >
+              linkedin.com/in/gangadharbv
+            </a>
+          </div>
+
+        </div>
 
       </div>
-    </div>
+    </section>
   );
 }
 
